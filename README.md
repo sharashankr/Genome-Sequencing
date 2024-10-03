@@ -1,6 +1,9 @@
 # Genome-Sequencing
 The codebase explores algorithms for analyzing DNA sequencing data, focusing on solving exact and approximate matching problems. It covers the Boyer-Moore algorithm for efficient exact matching, solutions for edit distance, global and local alignment in bio-sequence analysis, and methods for addressing the genome assembly problem.
 
+![image](https://github.com/user-attachments/assets/55974a1e-b65d-4ede-be69-1166abe47e43)
+
+
 # Table of Contents
 
 ## DNA Sequencing, Strings & Matching
