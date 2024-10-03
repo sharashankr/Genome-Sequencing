@@ -2,8 +2,6 @@
 
 """bm_preproc.py: Boyer-Moore preprocessing."""
 
-__author__ = "Ben Langmead"
-
 import unittest
 
 
