@@ -77,4 +77,36 @@ The study of computational genomics is vital for understanding the algorithms th
 
 Understanding existing methodologies is essential for continuous improvement in this dynamic research area. Both academic institutions and industry research labs are actively exploring better methods for analyzing large volumes of DNA sequencing data. Computer scientists and computational experts play crucial roles in every large-scale genomic project, reinforcing the reliance on advanced algorithms developed within the field.
 
-This area of study is identified as a promising frontier for those interested in making contributions. The exploration of algorithms and data structures within computational genomics presents numerous exciting applications. Many algorithms and data structures studied have relevance beyond genomics, extending to fields such as information retrieval and natural language processing, where large quantities of text are routinely managed.
+This area of study is identified as a promising frontier for those interested in making contributions. The exploration of algorithms and data structures within computational genomics presents 
+
+grViz("
+digraph unified_process {
+  
+  graph [layout = dot, rankdir = LR]
+
+  node [shape = box, style = filled, color = lightblue, fontname = Helvetica]
+
+  step1 [label = '1. Research & Data Acquisition\\n• Ethnographic research\\n• Structured data collection']
+  step2 [label = '2. Modeling & Parsing\\n• Personas & domain models\\n• Data parsing & organization']
+  step3 [label = '3. Requirement Definition & Data Mining\\n• Translate goals to needs\\n• Analyze patterns & insights']
+  step4 [label = '4. Framework & Representation Design\\n• Design structure & interactions\\n• Choose visual models']
+  step5 [label = '5. Refinement & Scenario Testing\\n• User testing & feedback\\n• Visual & flow refinement']
+  step6 [label = '6. Development Support & Iteration\\n• Collaboration with devs\\n• Feedback & adjustments']
+
+  # Main process flow
+  step1 -> step2 -> step3 -> step4 -> step5 -> step6
+
+  # Feedback loop from step6 to step2
+  step6 -> step2 [label = 'Feedback loop', style=dashed, color=gray]
+}
+")
+
+
+
+
+
+
+
+
+
+numerous exciting applications. Many algorithms and data structures studied have relevance beyond genomics, extending to fields such as information retrieval and natural language processing, where large quantities of text are routinely managed.
